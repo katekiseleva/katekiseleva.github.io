@@ -1,0 +1,59 @@
+<style>
+body {
+  background-image: url('img/000.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+body::after {
+    content: "";
+    background-image: url('img/000.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+h1 {
+  color: black;
+  padding: 24px;
+  text-align: center;
+}
+.hide {
+  padding: 20px;
+  text-align: center;
+}
+.show {
+  padding: 20px;
+  text-align: center;
+}
+th, td {
+  padding: 5px;
+  text-align: center;
+}
+.t01 {
+  width: 10%;    
+  background-color:  #FFF0B3;
+  opacity:0.8;
+}
+a:link {
+  color: rgb(60, 60, 67);
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(60, 60, 67);
+}
+a:hover {
+  color: rgb(60, 60, 67);
+}
+
+</style>
