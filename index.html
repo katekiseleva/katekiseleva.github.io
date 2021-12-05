@@ -61,6 +61,24 @@ switch(sw) {
     case 17:
      pic = "img/20200210_c."
      break;
+     case 18:
+     pic = "img/book_1."
+     break;
+     case 19:
+     pic = "img/book_2."
+     break;
+     case 20:
+     pic = "img/book_3."
+     break;
+     case 21:
+     pic = "img/book_4."
+     break;
+     case 22:
+     pic = "img/book_5."
+     break;
+     case 23:
+     pic = "img/book_6."
+     break;
   }
   document.getElementById('myImage').src = pic + "png";
   document.getElementById('myText').src = pic + "html";
@@ -75,6 +93,7 @@ switch(sw) {
   <tr>
     <td class="t01">
     <table style="width:100%">
+    <tr style="height:10px"></tr>
     <tr>
      <td><button onclick="light(0)">ДОМ</button></td>
      </tr>
@@ -84,21 +103,21 @@ switch(sw) {
     <tr>
     <td class="show"><button onclick="document.getElementById('myTextDiv').style.display='block'">ПОКАЗАТЬ ТЕКСТ</button></td>
     </tr>
+    <tr style="height: 100px"></tr>
     <tr>
-    <th>ПО ГЕРОЮ</th>
+    <th>ЗАНИМАТЕЛЬНАЯ</th>
     </tr>
-    <tr><td><a href="#" onclick="light(1)">Вова Матвей Егор</a></td></tr>
-    <tr><td><a href="#" onclick="light(2)">Альбина Слава</a></td></tr>
-    <tr><td><a href="#" onclick="light(3)">Слава Ульяна</a></td></tr>
-    <tr><td><a href="#" onclick="light(5)">Соня</a></td></tr>
-    <tr><td><a href="#" onclick="light(7)">Лиза Ксюша</a></td></tr>
-    <tr><td><a href="#" onclick="light(8)">Костя Слава Настя</a></td></tr>
-    <tr><td><a href="#" onclick="light(10)">Ксюша</a></td></tr>
-    <tr><td><a href="#" onclick="light(11)">Варя</a></td></tr>
-    <tr><td><a href="#" onclick="light(12)">Лиза Соня Настя Алина</a></td></tr>
-    <tr><td><a href="#" onclick="light(13)">Полина Матвей Софа</a></td></tr>
-    <tr><td><a href="#" onclick="light(15)">Катя Матвей Ульяна Тася Полина Софа Варя</a></td></tr>
-    <tr><td><a href="#" onclick="light(16)">Катя</a></td></tr>
+    <tr>
+    <th>ФИЗИКА</th>
+    </tr>
+    <tr></tr>
+    <tr><td><a href="#" onclick="light(18)">Сила Архимеда</a></td></tr>
+    <tr><td><a href="#" onclick="light(19)">Простые механизмы</a></td></tr>
+    <tr><td><a href="#" onclick="light(20)">Энергия</a></td></tr>
+    <tr><td><a href="#" onclick="light(21)">Сила тяжести</a></td></tr>
+    <tr><td><a href="#" onclick="light(22)">Давление</a></td></tr>
+    <tr><td><a href="#" onclick="light(23)">Молекулы и атомы</a></td></tr>
+    <tr style="height:100px"></tr>
     </table>
     </td>
     
@@ -114,26 +133,46 @@ switch(sw) {
     
     <td class="t01">
     <table style="width:100%">
+    <tr><td></td></tr>
+    <tr>
+    <th>ПО ГЕРОЮ</th>
+    </tr>
+    <tr><td></td></tr>
+    <tr><td><a href="#" onclick="light(1)">Вова Матвей Егор</a></td></tr>
+    <tr><td><a href="#" onclick="light(2)">Альбина Слава</a></td></tr>
+    <tr><td><a href="#" onclick="light(3)">Слава Ульяна</a></td></tr>
+    <tr><td><a href="#" onclick="light(5)">Соня</a></td></tr>
+    <tr><td><a href="#" onclick="light(7)">Лиза Ксюша</a></td></tr>
+    <tr><td><a href="#" onclick="light(8)">Костя Слава Настя</a></td></tr>
+    <tr><td><a href="#" onclick="light(10)">Ксюша</a></td></tr>
+    <tr><td><a href="#" onclick="light(11)">Варя</a></td></tr>
+    <tr><td><a href="#" onclick="light(12)">Соня Алина</a></td></tr>
+    <tr><td><a href="#" onclick="light(13)">Полина Матвей</a></td></tr>
+    <tr><td><a href="#" onclick="light(15)">все вместе</a></td></tr>
+    <tr><td><a href="#" onclick="light(16)">Катя</a></td></tr>
+    <tr><td></td></tr>
     <tr>
     <th>ПО СОБЫТИЮ</th>
     </tr>
+    <tr><td></td></tr>
     <tr><td><a href="#" onclick="light(1)">полет на луну</a></td></tr>
-    <tr><td><a href="#" onclick="light(2)">поход в институт "ХТТ"</a></td></tr>
+    <tr><td><a href="#" onclick="light(2)">поход в ИХТТ</a></td></tr>
     <tr><td><a href="#" onclick="light(3)">баскетбол</a></td></tr>
     <tr><td><a href="#" onclick="light(4)">мемы</a></td></tr>
     <tr><td><a href="#" onclick="light(5)">день Гимназии</a></td></tr>
-    <tr><td><a href="#" onclick="light(6)">отменили урок биологии</a></td></tr>
+    <tr><td><a href="#" onclick="light(6)">отменили урок</a></td></tr>
     <tr><td><a href="#" onclick="light(7)">новенькая</a></td></tr>
-    <tr><td><a href="#" onclick="light(8)">приключения на английском</a></td></tr>
+    <tr><td><a href="#" onclick="light(8)">на английском</a></td></tr>
     <tr><td><a href="#" onclick="light(9)">телефоны</a></td></tr>
     <tr><td><a href="#" onclick="light(10)">новый год</a></td></tr>
     <tr><td><a href="#" onclick="light(11)">урок истории</a></td></tr>
     <tr><td><a href="#" onclick="light(12)">новогодняя песня</a></td></tr>
-    <tr><td><a href="#" onclick="light(13)">когда учитель выходит</a></td></tr>
-    <tr><td><a href="#" onclick="light(14)">рейтинговые работы</a></td></tr>
-    <tr><td><a href="#" onclick="light(15)">правда или действие?</a></td></tr>
-    <tr><td><a href="#" onclick="light(16)">экскурсия в "ИТП"</a></td></tr>
+    <tr><td><a href="#" onclick="light(13)">без учителя</a></td></tr>
+    <tr><td><a href="#" onclick="light(14)">итоговые работы</a></td></tr>
+    <tr><td><a href="#" onclick="light(15)">играем вместе</a></td></tr>
+    <tr><td><a href="#" onclick="light(16)">экскурсия в ИТП</a></td></tr>
     <tr><td><a href="#" onclick="light(17)">новый учитель</a></td></tr>
+    <tr><td></td></tr>
     </table>
     </td>
   </tr> 
